@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#0E0C57"
+    android:orientation="vertical"
+    tools:context=".Voting">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="VOTE FOR:"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/positiontext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="POSITION"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="505dp">
+
+            <LinearLayout
+                android:id="@+id/container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="start"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/candidate1layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/default_option_border"
+                    android:backgroundTint="#2A53BC">
+
+                    <Button
+                        android:id="@+id/candidate1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00042E61"
+                        android:backgroundTint="#00FFFFFF"
+                        android:text="Button"
+                        android:textColor="#00FFFFFF" />
+
+                    <ImageView
+                        android:id="@+id/Option1"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/profilepicture" />
+
+                    <TextView
+                        android:id="@+id/Name1"
+                        android:layout_width="178dp"
+                        android:layout_height="67dp"
+                        android:layout_alignParentStart="false"
+                        android:layout_alignParentTop="false"
+                        android:layout_alignParentEnd="false"
+                        android:layout_alignParentBottom="false"
+                        android:layout_marginStart="171dp"
+                        android:layout_marginTop="38dp"
+                        android:layout_marginEnd="33dp"
+                        android:layout_marginBottom="41dp"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center"
+                        android:text="Candidate Name One"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/candidate2layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/default_option_border"
+                    android:backgroundTint="#2A53BC">
+
+                    <Button
+                        android:id="@+id/candidate2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00FFFFFF"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <ImageView
+                        android:id="@+id/Option2"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/profilepicture" />
+
+                    <TextView
+                        android:id="@+id/Name2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="73dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="174dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginEnd="33dp"
+                        android:layout_marginBottom="41dp"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center"
+                        android:text="Candidate Name Two"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/candidate3layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/default_option_border"
+                    android:backgroundTint="#2A53BC">
+
+                    <Button
+                        android:id="@+id/candidate3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00FFFFFF"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <ImageView
+                        android:id="@+id/Option3"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/profilepicture" />
+
+                    <TextView
+                        android:id="@+id/Name3"
+                        android:layout_width="173dp"
+                        android:layout_height="74dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="171dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginEnd="33dp"
+                        android:layout_marginBottom="41dp"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center"
+                        android:text="Candidate Name Three"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+        <TextView
+            android:id="@+id/ScrollForMore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="SCROLL FOR MORE OPTIONS"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:id="@+id/ll_progress_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ProgressBar
+                android:id="@+id/progressbar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:indeterminate="false"
+                android:max="0"
+                android:minHeight="50dp"
+                android:progressBackgroundTint="#FFFFFF" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/nextbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3F51B5"
+            android:backgroundTint="#3F51B5"
+            android:text="Next" />
+
+    </LinearLayout>
+
+</ScrollView>
